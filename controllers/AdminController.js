@@ -5,7 +5,7 @@ const Event = require('../models/Event')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const {v4 : UUIDv4 } = require('uuid')
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 
 exports.signUp = async (req, res) => {
     

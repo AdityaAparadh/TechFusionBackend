@@ -1,7 +1,7 @@
 const Participant = require('../models/Participant')
 const Event = require('../models/Event')
 const {v4 : UUID } = require('uuid')
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 
 
 exports.register = async (req ,res) => {

@@ -2,7 +2,7 @@ const validateEmail = require('./validators/validateEmail')
 const validatePhone = require('./validators/validatePhone')
 const validateEvents = require('./validators/validateEvents')
 const validateEverything = require('./validators/validateEverything')
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 
 const verifyRegistration = (req, res, next) => {
 

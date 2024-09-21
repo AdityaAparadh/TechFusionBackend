@@ -1,5 +1,5 @@
 const Admin = require('../models/Admin')
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 exports.ping = async (req, res) =>{
     try{
         res.status(200)

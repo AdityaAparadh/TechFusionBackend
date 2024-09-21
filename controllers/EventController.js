@@ -1,5 +1,5 @@
 const Event = require('../models/Event')
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 
 
 exports.meta = async (req, res)=>{

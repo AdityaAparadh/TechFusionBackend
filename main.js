@@ -12,7 +12,7 @@ const EventRouter = require('./routes/EventRouter')
 const AdminRouter = require("./routes/AdminRouter")
 
 
-const logger = require('./config/logger')
+const logger = require('./utils/logger')
 // const loggerMiddleware = require('./middleware/loggerMiddleware')
 
 const dotenv = require('dotenv').config()

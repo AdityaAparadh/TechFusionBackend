@@ -7,7 +7,7 @@ const typesMiddleware = require('../middleware/typesMiddleware')
 const cloudinary = require('cloudinary')
 const multer = require('multer');
 
-const logger = require('../config/logger')
+const logger = require('../utils/logger')
 
 router.post('/register',  typesMiddleware, verifyMiddleware ,  async(req, res)=>{
     participantController.register(req, res)
