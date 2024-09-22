@@ -27,7 +27,7 @@ const SendInvites = async () => {
                     console.log(err);
                     return
                 }
-                const mailhtml = format(participant.name,participant.PID ,participant.events, "https://res.cloudinary.com/ds2uyuydp/image/upload/v1726946746/j2e13lzvrgsvbgw7vjjp.webp", qrURL )
+                const mailhtml = format(participant.name,participant.PID ,participant.events, "https://res.cloudinary.com/ds2uyuydp/image/upload/f_auto,q_auto/tsxcdi16itebcdcwbupu", qrURL )
                 
                 await sendEmail( participant.email, mailhtml)
 
