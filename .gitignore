@@ -5,3 +5,4 @@ certificates
 logs
 mail/.qr
 mail/.env
+bun.lockb
