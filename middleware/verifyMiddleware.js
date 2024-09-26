@@ -24,8 +24,8 @@ const verifyRegistration = (req, res, next) => {
             console.log("HERE:", req.body)
             res.status(400)
             res.json({ 
-                "message" : "Incorrect Events Array. Check below array of Valid Events. Length shouldn't exceed 4 with no duplicates ", 
-                "events" : ["CodeCrush", "CodeDuet", "CloudVerse", "Bid2Build"]
+                "message" : "Incorrect Events Array. Check below array of Valid Events. Length shouldn't exceed 3 with no duplicates ", 
+                "events" : ["CodeCrush", "CodeDuet", "Bid2Build"]
              })
             res.send()
         }

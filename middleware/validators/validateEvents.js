@@ -1,7 +1,7 @@
 function validateEvents(events) {
     
-    const validEvents = ["CodeCrush", "CodeDuet", "CloudVerse", "Bid2Build"];
-    if (events.length > 4) {
+    const validEvents = ["CodeCrush", "CodeDuet", "Bid2Build"];
+    if (events.length > 3) {
         return false;
     }
     const uniqueEvents = new Set(events);
